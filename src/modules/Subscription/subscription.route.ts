@@ -8,6 +8,6 @@ const router = Router()
 
 router.post('/checkout', auth(...Object.values(UserRole)), subsCriptionController.createCheckOutSession)
 
-
+router.post('/webhook' , subsCriptionController.handleWebhook )
 
 export const subsCriptionRoutes = router

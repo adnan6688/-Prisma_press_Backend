@@ -15,5 +15,6 @@ export default {
     jwt_access_expires_in: process.env.JWT_ACCESS_EXPIRES_IN!,
     app_url: process.env.APP_URL!,
     stripe_product_id: process.env.stripe_product_id!,
-    stripe_secret_key: process.env.stripe_secret_key!
+    stripe_secret_key: process.env.stripe_secret_key!,
+    web_hook_secret : process.env.web_hook_secret!
 }
